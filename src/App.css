@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap');
+
+html, body {
+  min-height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: linear-gradient(to top, #00A2EE,#51C8FB, #E9FCFF, #E6F4F1);
+  font-family: 'Nanum Gothic Coding', monospace, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dep1-root {
+  background-color: #fff;
+  margin: 3rem;
+  border-radius: 3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dep2-root {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
 
-.App-link {
-  color: #61dafb;
+.header ul {
+  padding: 0;
+  display: flex; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header ul li {
+  list-style-type: none;
+  margin-right: 10px;
 }
+
