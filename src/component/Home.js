@@ -6,29 +6,34 @@ class Home extends Component {
         return (
             <div>
                 <div>
-                    <p>Iheanyi Ekechukwu is a NYC-based software engineer, currently working at GitHub.</p>
+                    <p>이자영, 웹개발자, 2년차, 서울</p>
+                    {/* <p>Iheanyi Ekechukwu is a NYC-based software engineer, currently working at GitHub.</p> */}
                 </div>
                 <div>
-                    <h2>Latest Writing</h2>
-                    <ul>
-                        <li>Engineering Products vs. Engineering Primitives</li>
-                        <li>Lessons from Design School for Software Engineers</li>
-                        <li>Reflections on 2018</li>
-                        <li>The G-Unit Stack: Go, GraphQL, and gRPC</li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>Latest Projects</h2>
+                    <h2>언어 및 사용경험</h2>
                     <dl>
-                        <dt>DigitalOcean Community</dt>
-                        <dd>My work on the DigitalOcean Community website and team.</dd>
-                        <dt>Interface Lovers</dt>
-                        <dd>An online magazine for creative professionals.</dd>
-                        <dt>DigitalOcean Hacktoberfest 2016</dt>
-                        <dd>A month long celebration of open-source software.</dd>
-                        <dt>Fade Pics</dt>
-                        <dd>Generate a four-panel fading transition between two images.</dd>
+                        <dt>언어</dt>
+                        <dd>HTML, CSS, Javascript, JQuery</dd>
+                        <dd>JSP, JAVA, SQL</dd>
+                        <dt>사용경험</dt>
+                        <dd>React</dd>
+                        <dd>MySQL, tomcat</dd>
+                        <dd>GitLab, GitHub, SVN</dd>
                     </dl>
+                </div>
+                <div>
+                    <h2>경력</h2>
+                    <dl>
+                        <dt>모비데이즈, Mobidays</dt>
+                        <dd>기간 : 2018. 04 - 재직중</dd>
+                        <dd>직급 : 사원</dd>
+                    </dl>
+                </div>
+                <div>
+                    <h2>자격증</h2>
+                    <ul>
+                        <li>2014. 06. 03 정보처리기사 취득</li>
+                    </ul>
                 </div>
             </div>
         );

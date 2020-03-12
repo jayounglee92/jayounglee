@@ -6,8 +6,8 @@ class Header extends Component {
         return (
             <div className="header">
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/">About</Link></li>
+                    {/* <li><Link to="/about">About</Link></li> */}
                     <li><Link to="/project">Project</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>

@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background: linear-gradient(to top, #00A2EE,#51C8FB, #E9FCFF, #E6F4F1);
+  background: linear-gradient(to bottom, #7fd4d3, #1c336a);
   font-family: 'Nanum Gothic Coding', monospace, Helvetica, Arial, sans-serif;
   font-size: 1em;
   height: 100%;
