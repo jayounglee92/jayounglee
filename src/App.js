@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './component/Home';
+// import Home from './component/Home';
 import About from './component/About';
 import Project from './component/Project';
 import Contact from './component/Contact';
@@ -17,8 +17,7 @@ function App() {
           <div className="dep2-root">
             <Header/>
             <hr/>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
+            <Route exact path="/" component={About} />
             <Route path="/project" component={Project} />
             <Route path="/contact" component={Contact} />
             <hr/>

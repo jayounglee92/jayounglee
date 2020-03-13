@@ -7,7 +7,6 @@ class Header extends Component {
             <div className="header">
                 <ul>
                     <li><Link to="/">About</Link></li>
-                    {/* <li><Link to="/about">About</Link></li> */}
                     <li><Link to="/project">Project</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>

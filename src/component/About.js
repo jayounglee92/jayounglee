@@ -6,37 +6,36 @@ class About extends Component {
         return (
             <div>
                 <div>
-                    <p>Yo there, I’m Iheanyi. I’m a product engineer currently living in Brooklyn, New York. Currently, I'm a Senior Software Engineer at GitHub on the Actions team. While I enjoy both designing and building products, I also enjoy co-hosting my podcast, Two Black Nerds, with my best friend Romeo.</p>
+                    <p>이자영, 웹개발자, 2년차, 서울</p>
+                    {/* <p>Iheanyi Ekechukwu is a NYC-based software engineer, currently working at GitHub.</p> */}
                 </div>
                 <div>
-                    <blockquote>"My life is dope and I do dope shit."</blockquote>
-                    <cite>- Kanye West</cite>
-                </div>
-                <div>
-                    <h2>Experience</h2>
+                    <h2>언어 및 사용경험</h2>
                     <dl>
-                        <dt>GitHub August 2018 – now</dt>
-                        <dd>Senior Software Engineer</dd>
-                        <dt>DigitalOcean March 2016 – July 2018</dt>
-                        <dd>Software Engineer II</dd>
-                        <dt>IBM Watson February 2015 – February 2016</dt>
-                        <dd>Software Engineer</dd>
-                        <dt>iCeNSA February 2013 – December 2014</dt>
-                        <dd>Research Assistant</dd>
-                        <dt>IBM Systems May 2013/2014 – August 2013/2014</dt>
-                        <dd>Software Engineering Intern</dd>
-                        <dt>IBM Systems May 2013/2014 – August 2013/2014</dt>
-                        <dd>Software Engineering Intern</dd>
-                        <dt>Cooperative Computing Lab January 2012 – December 2012</dt>
-                        <dd>Research Assistant</dd>
+                        <dt>언어</dt>
+                        <dd>HTML, CSS, Javascript, JQuery</dd>
+                        <dd>JSP, JAVA, SQL</dd>
+                        <dt>사용경험</dt>
+                        <dd>React</dd>
+                        <dd>MySQL, tomcat</dd>
+                        <dd>GitLab, GitHub, SVN</dd>
+                        <dd>GA, GTM, Cafe24</dd>
                     </dl>
                 </div>
                 <div>
-                    <h2>Education</h2>
+                    <h2>경력</h2>
                     <dl>
-                        <dt>University of Notre Dame, December 2014</dt>
-                        <dd>B.S. Computer Science / B.A. Graphic Design</dd>    
+                        <dt>모비데이즈, Mobidays</dt>
+                        <dd>기간 : 2018. 04 - 재직중</dd>
+                        <dd>직무 : 웹 프론트 개발</dd>
+                        <dd>업무 : 광고플랫폼 유지보수 및 개발 | 사내 웹서비스 구축 </dd>
                     </dl>
+                </div>
+                <div>
+                    <h2>자격증</h2>
+                    <ul>
+                        <li>2014. 06. 03 정보처리기사 취득</li>
+                    </ul>
                 </div>
             </div>
         );
