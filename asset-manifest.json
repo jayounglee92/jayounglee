@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jayounglee/static/css/main.d4f27be1.chunk.css",
+    "main.js": "/jayounglee/static/js/main.a78577bc.chunk.js",
+    "main.js.map": "/jayounglee/static/js/main.a78577bc.chunk.js.map",
+    "runtime-main.js": "/jayounglee/static/js/runtime-main.f8d9e64e.js",
+    "runtime-main.js.map": "/jayounglee/static/js/runtime-main.f8d9e64e.js.map",
+    "static/js/2.d46efa3a.chunk.js": "/jayounglee/static/js/2.d46efa3a.chunk.js",
+    "static/js/2.d46efa3a.chunk.js.map": "/jayounglee/static/js/2.d46efa3a.chunk.js.map",
+    "index.html": "/jayounglee/index.html",
+    "precache-manifest.c46c5e99a20edc498abf507c4a3796be.js": "/jayounglee/precache-manifest.c46c5e99a20edc498abf507c4a3796be.js",
+    "service-worker.js": "/jayounglee/service-worker.js",
+    "static/css/main.d4f27be1.chunk.css.map": "/jayounglee/static/css/main.d4f27be1.chunk.css.map",
+    "static/js/2.d46efa3a.chunk.js.LICENSE.txt": "/jayounglee/static/js/2.d46efa3a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8d9e64e.js",
+    "static/js/2.d46efa3a.chunk.js",
+    "static/css/main.d4f27be1.chunk.css",
+    "static/js/main.a78577bc.chunk.js"
+  ]
+}
