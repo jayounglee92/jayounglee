@@ -1,8 +1,6 @@
 import React from 'react';
-// import Home from './component/Home';
+import Work from './component/Work';
 import About from './component/About';
-import Project from './component/Project';
-import Contact from './component/Contact';
 import Footer from './component/Footer';
 import Header from './component/Header';
 
@@ -14,15 +12,10 @@ function App() {
   return (
       <BrowserRouter>
         <div className="dep1-root">
-          <div className="dep2-root">
-            <Header/>
-            <hr/>
-            <Route exact path="/" component={About} />
-            <Route path="/project" component={Project} />
-            <Route path="/contact" component={Contact} />
-            <hr/>
-            <Footer/>
-          </div>
+          <Header/>
+          <Route exact path="/" component={Work} />
+          <Route path="/about" component={About} />
+          <Footer/>
         </div>
       </BrowserRouter>
   );

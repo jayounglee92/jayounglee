@@ -1,36 +1,80 @@
 @import 'normalize.css';
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap'); 'Nanum Gothic Coding' */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 html, body {
   min-height: 100%;
 }
 
 body {
-  background: linear-gradient(to bottom, #7fd4d3, #1c336a);
-  font-family: 'Nanum Gothic Coding', monospace, Helvetica, Arial, sans-serif;
+  background-color: #F8F8F8;
+  font-family: 'Lato', monospace, Helvetica, Arial, sans-serif;
   font-size: 1em;
   height: 100%;
 }
 
-.dep1-root {
-  background-color: #fff;
-  margin: 3rem;
-  border-radius: 3rem;
+a {
+  text-decoration: none;
+  color: #333;
 }
 
-.dep2-root {
-  max-width: 48rem;
-  margin: 0 auto;
-  padding: 2rem 0;
+li {
+  list-style-type: none;
+}
+
+.dep1-root {
+  padding-right: 5vw;
+  padding-left: 5vw;
 }
 
 .header ul {
   padding: 0;
   display: flex; 
+  justify-content: space-between;
 }
 
 .header ul li {
-  list-style-type: none;
-  margin-right: 10px;
+  display: flex; 
+  align-items: center;
 }
 
+.header ul li a {
+  transition: all .2s ease-in-out;
+}
+
+.header ul li a:hover {
+  transform: translateY(-2px);
+  color: #8C623A;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 26vh;
+  margin-bottom: 26vh;
+  animation: main-text-ani 1.2s ease-in forwards;
+}
+
+.main-text {
+  white-space: pre-wrap;
+  font-size: 3em;
+  margin: 0;
+}
+
+
+
+@keyframes main-text-ani {
+  from{
+    opacity: 0;
+    transform: translateY(0);
+  }to{
+    opacity: 1;
+    transform: translateY(10px);
+  }
+}
+
+.social a {
+  font-size: 2em;
+  margin-right: 10px;
+}

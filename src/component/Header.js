@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 class Header extends Component {
     render() {
         return (
-            <div className="header">
+            <header className="header">
                 <ul>
-                    <li><Link to="/">About</Link></li>
-                    <li><Link to="/project">Project</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/">Work</Link></li>
+                    <li><h1><Link to="/">JAYOUNG LEE</Link></h1></li>
+                    <li><Link to="/about">About</Link></li>
                 </ul>
-            </div>
+            </header>
         );
     }
 }
