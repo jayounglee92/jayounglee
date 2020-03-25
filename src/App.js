@@ -1,4 +1,5 @@
 import React from 'react';
+import Home from './component/Home';
 import Work from './component/Work';
 import About from './component/About';
 import Footer from './component/Footer';
@@ -13,8 +14,9 @@ function App() {
       <BrowserRouter>
         <div className="dep1-root">
           <Header/>
-          <Route exact path="/" component={Work} />
-          <Route path="/about" component={About} />
+            <Route path="/work" component={Work} />
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
           <Footer/>
         </div>
       </BrowserRouter>
