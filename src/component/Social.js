@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook, faEnvelope } from "@fortawesome/free-solid-svg-icons"
@@ -6,6 +5,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import './Social.css';
 
 class Social extends Component {
+
     render() {
         return (
             <div className="social"> 
@@ -18,10 +18,11 @@ class Social extends Component {
                 <a href="https://lzy6853.gitbook.io/devlog/" target="_blank" rel="noopener noreferrer" title="gitbook">
                     <FontAwesomeIcon icon={faBook} />
                 </a>
-                <a href="mailto:lzy6853@gmail.com">
+                <a href="mailto:lzy6853@gmail.com" title="email">
                     <FontAwesomeIcon icon={faEnvelope} />
                 </a>
             </div>
+            
         );
     }
 }

@@ -5,6 +5,7 @@
 .social a {
     font-size: 2em;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .social a svg{
@@ -12,55 +13,6 @@
 }
 
 .social a svg:hover{
-    /* animation: spinning 1.5s infinite linear; */
     transform: scale(1.05);
     color:#7fd4d3;
-}
-
-.social a:last-child{
-    position: relative;
-}
-
-.social a:last-child::before{
-    display: none;
-    content: '';
-    position: absolute;
-    top: 89%;
-    left: 50%;
-    border-width: 10px 10px 0 10px;
-    border-style: solid;
-    border-color: #fff transparent transparent;
-    transform: translateX(-50%) translatey(0%) rotate(-180deg);
-    opacity: 0;
-}
-
-.social a:last-child::after{
-    display: none;
-    content: 'Click to copy my address to your clipboard :)';
-    width: 200px;
-    height: 40px;
-    padding: 5px 10px;
-    position: absolute;
-    left: -85px;
-    top: 45px;
-    background-color: #fff;
-    font-size: 1rem;
-    border-radius: 15px;
-    border: none;
-    box-shadow: 5px 5px 8px 2px rgba(100,100,100,0.1);
-    opacity: 0;
-}
-
-.social a:last-child:hover::before{
-    opacity: 1;
-    display: block;
-}
-
-.social a:last-child:hover::after{
-    opacity: 1;
-    display: block;
-}
-
-.social a:last-child:active::after{
-    content: 'dddd';
 }

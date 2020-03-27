@@ -1,43 +1,114 @@
 
 import React, { Component } from 'react';
+import { faHtml5, faCss3, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './About.css';
+
 
 class About extends Component {
     render() {
         return (
-            <div>
-                <div>
-                    <p>이자영, 웹개발자, 2년차, 서울</p>
+            <main className="about">
+                <div className="about-con">
+                    <section>
+                        <h1>about me</h1>
+                        <div className="about-me">
+                            <div className="about-me-text">
+                                <p className="about-me-intro">
+                                    I'm a front end web developer based in Seoul, South Korea.
+                                </p>
+                                <p className="about-me-desc">
+                                    I enjoy developing good websites for nice people.
+                                    <br/>I believe good websites could give a good experience to millions of people.
+                                    <br/>That's the goal of my life.
+                                    <br/>When I'm not coding, running in park and listening music.
+                                </p>
+                            </div>
+                            <div className="about-me-img">
+                                <img src={process.env.PUBLIC_URL+'/images/me.png'} alt="profile"/>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>What I can do</h1>
+                        <div className="skill-wrap">
+                            <div className="skill">
+                                <div className="skill-title">
+                                    <FontAwesomeIcon icon={faHtml5} size="2x"/>
+                                    <div className="skill-name">HTML 5</div>
+                                </div>
+                                <div className="skill-bar">
+                                    <div style={{"background":"rgb(237, 85, 101)"}}></div>
+                                    <div style={{"background":"rgb(237, 85, 101)"}}></div>
+                                    <div style={{"background":"rgb(237, 85, 101)"}}></div>
+                                    <div style={{"background":"rgb(237, 85, 101)"}}></div>
+                                    <div style={{"background":"rgb(237, 85, 101)"}}></div>
+                                    <div style={{"background":"rgb(237, 85, 101)"}}></div>
+                                    <div style={{"background":"rgb(237, 85, 101)"}}></div>
+                                    <div style={{"background":"rgb(237, 85, 101)"}}></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div className="skill">
+                                <div className="skill-title">
+                                    <FontAwesomeIcon icon={faCss3} size="2x"/>
+                                    <div className="skill-name">CSS 3</div>
+                                </div>
+                                <div className="skill-bar">
+                                    <div style={{"background":"rgb(233, 87, 63)"}}></div>
+                                    <div style={{"background":"rgb(233, 87, 63)"}}></div>
+                                    <div style={{"background":"rgb(233, 87, 63)"}}></div>
+                                    <div style={{"background":"rgb(233, 87, 63)"}}></div>
+                                    <div style={{"background":"rgb(233, 87, 63)"}}></div>
+                                    <div style={{"background":"rgb(233, 87, 63)"}}></div>
+                                    <div style={{"background":"rgb(233, 87, 63)"}}></div>
+                                    <div style={{"background":"rgb(233, 87, 63)"}}></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div className="skill">
+                                <div className="skill-title">
+                                    <FontAwesomeIcon icon={faJs} size="2x"/>
+                                    <div className="skill-name">JAVASCRIPT</div>
+                                </div>
+                                <div className="skill-bar">
+                                    <div style={{"background":"rgb(246, 187, 66)"}}></div>
+                                    <div style={{"background":"rgb(246, 187, 66)"}}></div>
+                                    <div style={{"background":"rgb(246, 187, 66)"}}></div>
+                                    <div style={{"background":"rgb(246, 187, 66)"}}></div>
+                                    <div style={{"background":"rgb(246, 187, 66)"}}></div>
+                                    <div style={{"background":"rgb(246, 187, 66)"}}></div>
+                                    <div style={{"background":"rgb(246, 187, 66)"}}></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div className="skill">
+                                <div className="skill-title">
+                                    <FontAwesomeIcon icon={faReact} size="2x"/>
+                                    <div className="skill-name">REACT</div>
+                                </div>
+                                <div className="skill-bar">
+                                    <div style={{"background":"rgb(72, 207, 248)"}}></div>
+                                    <div style={{"background":"rgb(72, 207, 248)"}}></div>
+                                    <div style={{"background":"rgb(72, 207, 248)"}}></div>
+                                    <div style={{"background":"rgb(72, 207, 248)"}}></div>
+                                    <div style={{"background":"rgb(72, 207, 248)"}}></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     {/* <p>Iheanyi Ekechukwu is a NYC-based software engineer, currently working at GitHub.</p> */}
                 </div>
-                <div>
-                    <h2>언어 및 사용경험</h2>
-                    <dl>
-                        <dt>언어</dt>
-                        <dd>HTML, CSS, Javascript, JQuery</dd>
-                        <dd>JSP, JAVA, SQL</dd>
-                        <dt>사용경험</dt>
-                        <dd>React</dd>
-                        <dd>MySQL, tomcat</dd>
-                        <dd>GitLab, GitHub, SVN</dd>
-                        <dd>GA, GTM, Cafe24</dd>
-                    </dl>
-                </div>
-                <div>
-                    <h2>경력</h2>
-                    <dl>
-                        <dt>모비데이즈, Mobidays</dt>
-                        <dd>기간 : 2018. 04 - 재직중</dd>
-                        <dd>직무 : 웹 프론트 개발</dd>
-                        <dd>업무 : 광고플랫폼 유지보수 및 개발 | 사내 웹서비스 구축 </dd>
-                    </dl>
-                </div>
-                <div>
-                    <h2>자격증</h2>
-                    <ul>
-                        <li>2014. 06. 03 정보처리기사 취득</li>
-                    </ul>
-                </div>
-            </div>
+            </main>
         );
     }
 }
