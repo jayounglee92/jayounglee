@@ -1,3 +1,8 @@
+.about{
+    margin-top: 5vh;
+    margin-bottom: 19vh;
+}
+
 .about-con{
     padding-right: 17vw;
     padding-left: 17vw;
@@ -29,8 +34,24 @@
 .about-me-img{
     width: 25%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.about-me-pdf{
+    display: inline-block;
+    background-color:#fff;
+    color: #7fd4d3;
+    padding: 13px 26px;
+    border-radius: 300px;
+    border: 3px solid #7fd4d3;
+    margin-top:10px;
+    font-size: 1.2em;
+    transition: all 0.2s ease-in;
+}
+.about-me-pdf:hover{
+    background-color:#7fd4d3;
+    color: #fff;
 }
 .skill-wrap {
     display: flex;

@@ -26,6 +26,7 @@ class About extends Component {
                             </div>
                             <div className="about-me-img">
                                 <img src={process.env.PUBLIC_URL+'/images/me.png'} alt="profile"/>
+                                <a href="javascript:alert('showing pdf!')" className="about-me-pdf">CV.pdf</a>
                             </div>
                         </div>
                     </section>
@@ -96,7 +97,7 @@ class About extends Component {
                                     <div style={{"background":"rgb(72, 207, 248)"}}></div>
                                     <div style={{"background":"rgb(72, 207, 248)"}}></div>
                                     <div style={{"background":"rgb(72, 207, 248)"}}></div>
-                                    <div style={{"background":"rgb(72, 207, 248)"}}></div>
+                                    <div></div>
                                     <div></div>
                                     <div></div>
                                     <div></div>
