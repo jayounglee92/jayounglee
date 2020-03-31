@@ -1,15 +1,15 @@
 
 import React, { Component } from 'react';
 import Social from './Social';
-import './Home.css'
+import './Main.css'
 
 
-class Home extends Component {
+class Main extends Component {
     render() {
         return (
-            <main className="home">
-                <div className="home-con"> 
-                    <p className="home-text">
+            <main className="main">
+                <div className="main-con"> 
+                    <p className="main-text">
                     ― Hi there, My name is Jayoung Lee.
                     <br/>
                     I'am a Web Developer based in Seoul, South Korea 
@@ -21,4 +21,4 @@ class Home extends Component {
     }
 }
 
-export default Home;
+export default Main;

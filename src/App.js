@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './component/Home';
+import Main from './component/Main';
 import Work from './component/Work';
 import About from './component/About';
 import Footer from './component/Footer';
@@ -15,7 +15,7 @@ function App() {
         <div className="dep1-root">
           <Header/>
             <Route path="/work" component={Work} />
-            <Route exact path="/" component={Home} />
+            <Route exact path="/jayounglee" component={Main} />
             <Route path="/about" component={About} />
           <Footer/>
         </div>

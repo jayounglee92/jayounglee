@@ -1,10 +1,10 @@
-.home {
+.main {
   align-items: center;
   margin-top: 33vh;
   margin-bottom: 33vh;
 }
   
-.home-text {
+.main-text {
   white-space: pre-wrap;
   font-size: 3em;
   margin: 0;
