@@ -1,4 +1,8 @@
 /*############################## START OF HEADER STYLE */
+.header {
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
 .header ul {
     padding: 0;
     display: flex; 

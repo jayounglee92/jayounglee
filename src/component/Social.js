@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBook, faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { faEnvelope, faBlog } from "@fortawesome/free-solid-svg-icons"
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import './Social.css';
 
@@ -15,10 +15,10 @@ class Social extends Component {
                 <a href="https://www.linkedin.com/in/jayoung-lee-11783519b/" target="_blank" rel="noopener noreferrer" title="linkedin">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
-                <a href="https://lzy6853.gitbook.io/devlog/" target="_blank" rel="noopener noreferrer" title="gitbook">
-                    <FontAwesomeIcon icon={faBook} />
+                <a href="https://jaddong.tistory.com/" target="_blank" rel="noopener noreferrer" title="blog">
+                    <FontAwesomeIcon icon={faBlog} />
                 </a>
-                <a href="mailto:lzy6853@gmail.com" title="email">
+                <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=lzy6853@gmail.com" target="_blank" rel="noopener noreferrer" title="mail">
                     <FontAwesomeIcon icon={faEnvelope} />
                 </a>
             </div>

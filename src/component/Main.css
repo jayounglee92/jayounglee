@@ -1,7 +1,9 @@
 .main {
   align-items: center;
-  margin-top: 33vh;
-  margin-bottom: 33vh;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
 }
   
 .main-text {

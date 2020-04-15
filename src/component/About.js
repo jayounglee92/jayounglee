@@ -47,7 +47,7 @@ class About extends Component {
                                     <div style={{"background":"rgb(237, 85, 101)"}}></div>
                                     <div style={{"background":"rgb(237, 85, 101)"}}></div>
                                     <div style={{"background":"rgb(237, 85, 101)"}}></div>
-                                    <div></div>
+                                    <div style={{"background":"rgb(237, 85, 101)"}}></div>
                                     <div></div>
                                 </div>
                             </div>
@@ -82,6 +82,24 @@ class About extends Component {
                                     <div style={{"background":"rgb(246, 187, 66)"}}></div>
                                     <div style={{"background":"rgb(246, 187, 66)"}}></div>
                                     <div style={{"background":"rgb(246, 187, 66)"}}></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div className="skill">
+                                <div className="skill-title">
+                                    <img src={process.env.PUBLIC_URL+'/images/jquery-vertical.svg'} alt="profile" style={{"width":"33px"}}/>
+                                    <div className="skill-name">jQuery</div>
+                                </div>
+                                <div className="skill-bar">
+                                    <div style={{"background":"#0868AB"}}></div>
+                                    <div style={{"background":"#0868AB"}}></div>
+                                    <div style={{"background":"#0868AB"}}></div>
+                                    <div style={{"background":"#0868AB"}}></div>
+                                    <div style={{"background":"#0868AB"}}></div>
+                                    <div style={{"background":"#0868AB"}}></div>
+                                    <div style={{"background":"#0868AB"}}></div>
                                     <div></div>
                                     <div></div>
                                     <div></div>

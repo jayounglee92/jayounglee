@@ -1,0 +1,31 @@
+
+.work-con{
+    display: flex;
+    flex-direction: column;
+}
+.work-list{
+    padding:0;
+    display:flex;
+}
+
+.work-list li{
+    width: 33.3%;
+
+    position: relative;
+    outline: 2px solid violet;
+
+}
+
+.work-list a{
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.work-list li img{
+   
+    width: 100%;
+}
