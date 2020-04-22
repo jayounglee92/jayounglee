@@ -49,6 +49,7 @@
     font-size: 1.2em;
     transition: all 0.2s ease-in;
 }
+
 .about-me-pdf:hover{
     background-color:#7fd4d3;
     color: #fff;
