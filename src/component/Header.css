@@ -17,6 +17,7 @@
   .header ul li a {
     transition: all 0.2s ease-in-out;
     position: relative;
+    font-weight: 600;
   }
   
   .header ul li a::after {
