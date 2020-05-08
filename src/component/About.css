@@ -40,19 +40,25 @@
 }
 .about-me-pdf{
     display: inline-block;
-    background-color:#F8F8F8;
-    color: #7fd4d3;
-    padding: 13px 26px;
-    border-radius: 300px;
-    border: 3px solid #7fd4d3;
     margin-top:10px;
     font-size: 1.2em;
-    transition: all 0.2s ease-in;
+    background: #d20068;
+    border: 0;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-block;
+    line-height: 1.5;
+    padding: 10px 30px;
+    -webkit-transition: .3s;
+    transition: .3s;
 }
 
 .about-me-pdf:hover{
-    background-color:#7fd4d3;
+    background-color:rgba(210,0,104,1);
     color: #fff;
+    box-shadow: 0 0 1px 7px rgba(210,0,104,.15);
+    outline: 0;
 }
 .skill-wrap {
     display: flex;

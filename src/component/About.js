@@ -26,7 +26,7 @@ class About extends Component {
                             </div>
                             <div className="about-me-img">
                                 <img src={process.env.PUBLIC_URL+'/images/me.png'} alt="profile"/>
-                                <a href="javascript:alert('showing pdf!')" className="about-me-pdf">CV.pdf</a>
+                                <a href="javascript:alert('showing pdf!')" className="about-me-pdf">View my CV</a>
                             </div>
                         </div>
                     </section>
