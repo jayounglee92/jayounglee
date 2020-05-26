@@ -3,7 +3,7 @@
 > React 기반의 포트폴리오 작업중입니다.
 
 ## Description
-- 주요기술 : React
+- 주요기술 : React, CSS
 - 툴 : VSCode
 - 형상관리 : GitHub
 - 작업기간 : -ing
