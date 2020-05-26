@@ -7,7 +7,7 @@
 - 툴 : VSCode
 - 형상관리 : GitHub
 - 작업기간 : -ing
-- url : 
+- url : https://jayounglee92.github.io/jayounglee/
 
 ## Changelog
 
