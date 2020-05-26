@@ -1,9 +1,13 @@
 # Portfolio
 
-Work in Progress Portfolio
-포트폴리오 작업중입니다.
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-이 프로젝트는 Create Creat App를 사용해서 만들었습니다.
+> React 기반의 포트폴리오 작업중입니다.
+
+## Description
+- 주요기술 : React
+- 툴 : VSCode
+- 형상관리 : GitHub
+- 작업기간 : -ing
+- url : 
 
 ## Changelog
 
