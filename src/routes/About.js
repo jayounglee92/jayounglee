@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import {
   faHtml5,
   faCss3,
@@ -8,31 +8,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "assets/css/About.css";
 
-class About extends Component {
-  constructor(props) {
-    super(props);
-    const {
-      location: { pathname },
-    } = props;
-    this.state = {
-      error: null,
-      loading: true,
-      current: pathname.includes("/about"),
-    };
-  }
-
-  async componentDidMount() {
-    const { current } = this.state;
-    console.log(this.state);
-    try {
-    } catch {
-      this.setState({ error: "Can't find anything." });
-    } finally {
-      this.setState({ loading: false });
-    }
-  }
-
-  render() {
+const About = () => {
     return (
       <main className="about">
         <div className="about-con">
@@ -170,7 +146,7 @@ class About extends Component {
         </div>
       </main>
     );
-  }
+  
 }
 
 export default About;

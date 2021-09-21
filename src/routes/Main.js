@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import Social from "component/Social";
 import "assets/css/Main.css";
 
-class Main extends Component {
-  render() {
+const Main  = () =>  {  
     return (
       <main className="main">
         <div className="main-con">
@@ -16,7 +15,6 @@ class Main extends Component {
         </div>
       </main>
     );
-  }
 }
 
 export default Main;
