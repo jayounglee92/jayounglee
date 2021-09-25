@@ -1,7 +1,7 @@
 import React from 'react';
-import { faHtml5, faCss3, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './About.css';
+import skillData from 'data/skillData';
+import { SkillItem } from 'component';
 
 const About = () => {
   return (
@@ -34,100 +34,9 @@ const About = () => {
         <section>
           <h1>What I can do</h1>
           <div className='skill-wrap'>
-            <div className='skill'>
-              <div className='skill-title'>
-                <FontAwesomeIcon icon={faHtml5} size='2x' />
-                <div className='skill-name'>HTML 5</div>
-              </div>
-              <div className='skill-bar'>
-                <div style={{ background: 'rgb(237, 85, 101)' }}></div>
-                <div style={{ background: 'rgb(237, 85, 101)' }}></div>
-                <div style={{ background: 'rgb(237, 85, 101)' }}></div>
-                <div style={{ background: 'rgb(237, 85, 101)' }}></div>
-                <div style={{ background: 'rgb(237, 85, 101)' }}></div>
-                <div style={{ background: 'rgb(237, 85, 101)' }}></div>
-                <div style={{ background: 'rgb(237, 85, 101)' }}></div>
-                <div style={{ background: 'rgb(237, 85, 101)' }}></div>
-                <div style={{ background: 'rgb(237, 85, 101)' }}></div>
-                <div></div>
-              </div>
-            </div>
-            <div className='skill'>
-              <div className='skill-title'>
-                <FontAwesomeIcon icon={faCss3} size='2x' />
-                <div className='skill-name'>CSS 3</div>
-              </div>
-              <div className='skill-bar'>
-                <div style={{ background: 'rgb(233, 87, 63)' }}></div>
-                <div style={{ background: 'rgb(233, 87, 63)' }}></div>
-                <div style={{ background: 'rgb(233, 87, 63)' }}></div>
-                <div style={{ background: 'rgb(233, 87, 63)' }}></div>
-                <div style={{ background: 'rgb(233, 87, 63)' }}></div>
-                <div style={{ background: 'rgb(233, 87, 63)' }}></div>
-                <div style={{ background: 'rgb(233, 87, 63)' }}></div>
-                <div style={{ background: 'rgb(233, 87, 63)' }}></div>
-                <div></div>
-                <div></div>
-              </div>
-            </div>
-            <div className='skill'>
-              <div className='skill-title'>
-                <FontAwesomeIcon icon={faJs} size='2x' />
-                <div className='skill-name'>JAVASCRIPT</div>
-              </div>
-              <div className='skill-bar'>
-                <div style={{ background: 'rgb(246, 187, 66)' }}></div>
-                <div style={{ background: 'rgb(246, 187, 66)' }}></div>
-                <div style={{ background: 'rgb(246, 187, 66)' }}></div>
-                <div style={{ background: 'rgb(246, 187, 66)' }}></div>
-                <div style={{ background: 'rgb(246, 187, 66)' }}></div>
-                <div style={{ background: 'rgb(246, 187, 66)' }}></div>
-                <div style={{ background: 'rgb(246, 187, 66)' }}></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-            </div>
-            <div className='skill'>
-              <div className='skill-title'>
-                <img
-                  src={process.env.PUBLIC_URL + '/images/jquery-vertical.svg'}
-                  alt='profile'
-                  style={{ width: '33px' }}
-                />
-                <div className='skill-name'>jQuery</div>
-              </div>
-              <div className='skill-bar'>
-                <div style={{ background: '#0868AB' }}></div>
-                <div style={{ background: '#0868AB' }}></div>
-                <div style={{ background: '#0868AB' }}></div>
-                <div style={{ background: '#0868AB' }}></div>
-                <div style={{ background: '#0868AB' }}></div>
-                <div style={{ background: '#0868AB' }}></div>
-                <div style={{ background: '#0868AB' }}></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-            </div>
-            <div className='skill'>
-              <div className='skill-title'>
-                <FontAwesomeIcon icon={faReact} size='2x' />
-                <div className='skill-name'>REACT</div>
-              </div>
-              <div className='skill-bar'>
-                <div style={{ background: 'rgb(72, 207, 248)' }}></div>
-                <div style={{ background: 'rgb(72, 207, 248)' }}></div>
-                <div style={{ background: 'rgb(72, 207, 248)' }}></div>
-                <div style={{ background: 'rgb(72, 207, 248)' }}></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-            </div>
+            {skillData.data.map(({ name, color, volume }) => (
+              <SkillItem name={name} color={color} volume={volume} />
+            ))}
           </div>
         </section>
         {/* <p>Iheanyi Ekechukwu is a NYC-based software engineer, currently working at GitHub.</p> */}

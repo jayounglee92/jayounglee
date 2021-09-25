@@ -1,11 +1,11 @@
 .main {
   align-items: center;
-  margin-top: 30vh;
-  margin-bottom: 30vh;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
   padding-right: 5vw;
   padding-left: 5vw;
 }
-  
+
 .main-text {
   white-space: pre-wrap;
   font-size: 3em;

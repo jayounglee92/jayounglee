@@ -7,8 +7,8 @@ const Work = () => {
     <main className='work'>
       <div className='work-con'>
         <ul className='work-list'>
-          {workData.data.map(({ title, desc, tags }) => (
-            <WorkItem title={title} desc={desc} tags={tags} />
+          {workData.data.map(({ title, desc, images, url, tags }) => (
+            <WorkItem title={title} desc={desc} images={images} url={url} tags={tags} />
           ))}
         </ul>
       </div>

@@ -1,0 +1,9 @@
+{
+  "data": [
+    { "name": "HTML", "color": "#ed5565", "volume": 9 },
+    { "name": "CSS", "color": "#e9573f", "volume": 8 },
+    { "name": "JAVASCRIPT", "color": "#f6bb42", "volume": 7 },
+    { "name": "REACT", "color": "#48cff8", "volume": 7 },
+    { "name": "jQuery", "color": "#0868AB", "volume": 6 }
+  ]
+}
