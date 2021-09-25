@@ -1,0 +1,13 @@
+.work-con {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+}
+
+.work-list {
+  padding: 0;
+  display: flex;
+  width: 890px;
+  flex-direction: column;
+}
