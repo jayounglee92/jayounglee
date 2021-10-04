@@ -29,6 +29,8 @@
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
+    "lint": "eslint",
+    "lint-fix": "eslint --fix --no-error-on-unmatched-pattern ./src/**/**/**/*.{js,jsx}",
     "format": "prettier --ignore-unknown --write ./src/**/**/**/*.{js,jsx,json,md}"
   },
   "husky": {

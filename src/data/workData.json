@@ -1,32 +1,44 @@
 {
   "data": [
     {
+      "id": 1,
       "title": "에리치 | 요양/환자 연결 서비스 플랫폼",
       "desc": "요양/간병 기관과 환자에게 적절한 서비스의 제안 및 연결할 수 있는 서비스를 제공하는 반응형 플랫폼을 구축했습니다.",
       "images": ["work_g01.png"],
       "url": "https://www.ericchi.co.kr",
-      "tags": ["Next", "React", "TypeScript", "Styled-Components", "Redux Tookit"]
+      "source": "https://www.ericchi.co.kr",
+      "tags": ["Next", "React", "TypeScript", "Styled-Components", "Redux Tookit"],
+      "year": 2021
     },
     {
+      "id": 2,
       "title": "세상파일 피드백 시스템 리포트 사이트",
       "desc": "사회문제 해결을 위한 플랫폼(세상파일)에서의 기부금, 운영과정 등을 투명하게 보고하기 위한 리포트 시스템을 구축하였습니다.",
       "images": ["work_h01.png"],
-      "url": "https://feedback.sesang-file.com",
-      "tags": ["React", "JavaScript", "SCSS", "Tailwindcss", "Redux Tookit"]
+      "url": "",
+      "source": "https://www.sesang-file.com/story/view?id=1834&searchType=ALL",
+      "tags": ["React", "JavaScript", "SCSS", "Tailwindcss", "Redux Tookit"],
+      "year": 2021
     },
     {
+      "id": 3,
       "title": "사회적가치연구원 ESGame",
       "desc": "사회적가치연구원에서 진행하는 설문조사 페이지를 반응형으로 구축했습니다.",
       "images": ["work_f01.png"],
       "url": "https://esgame.socialvalue.re.kr/",
-      "tags": ["React", "JavaScript", "SCSS", "Tailwindcss", "Meterial-UI"]
+      "source": "https://esgame.socialvalue.re.kr/",
+      "tags": ["React", "JavaScript", "SCSS", "Tailwindcss", "Material-UI"],
+      "year": "2021"
     },
     {
+      "id": 4,
       "title": "태양열 모니터링 시스템 에너원 시스템",
       "desc": "발전소 별 태양열을 모니터링 할 수 있는 반응형 시스템을 fuse react templete을 이용해 구축했습니다.",
       "images": ["work_e01.png"],
       "url": "",
-      "tags": ["React", "JavaScript", "CSS", "Tailwindcss", "Meterial-UI", "Redux"]
+      "source": "",
+      "tags": ["React", "JavaScript", "CSS", "Tailwindcss", "Material-UI", "Redux"],
+      "year": 2020
     }
   ]
 }
