@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { WorkItem, TagItem } from 'component';
+import { WorkItem, ModalWorkItem, Maybe } from 'component';
 import './Work.css';
 import workData from 'data/workData';
 
@@ -16,28 +16,9 @@ const Work = () => {
 
   return (
     <>
-      <div className={`modal-wrap ${targetData ? 'visible' : 'hidden'}`}>
-        <div className='modal-mask' onClick={closeModal}></div>
-        <div className='modal-con'>
-          <div className='modal-img'>
-            <img
-              src={process.env.PUBLIC_URL + `/images/${targetData?.images[0]}`}
-              alt={`${targetData?.title} 이미지`}
-            />
-            <spen onClick={closeModal}>x</spen>
-          </div>
-          <div className='modal-text'>
-            <h3 className='modal-text__title'>{targetData?.title}</h3>
-            <div className='modal-text__ability'>
-              {targetData?.tags.map((item) => (
-                <TagItem name={item} />
-              ))}
-            </div>
-            <hr className='modal-text__hr' />
-            <p className='modal-text__desc'>{targetData?.desc}</p>
-          </div>
-        </div>
-      </div>
+      <Maybe test={!!targetData}>
+        <ModalWorkItem data={targetData} onClose={closeModal} />
+      </Maybe>
       <main className='work'>
         <div className='work-con'>
           <ul className='work-list'>
