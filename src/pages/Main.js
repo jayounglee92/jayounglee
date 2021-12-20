@@ -9,7 +9,7 @@ const Main = () => {
         <p className='main-text'>
           ― Hi there, My name is Jayoung Lee.
           <br />
-          I'am a front end Web developer
+          I'm a front end Web developer
           <br />
           based in Seoul, South Korea
         </p>

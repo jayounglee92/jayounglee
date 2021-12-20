@@ -20,11 +20,11 @@ const About = () => {
                 <br />
                 That's the goal of my life.
                 <br />
-                When I'm not coding, running in park and listening music.
+                I'm a running and travel lover.
               </p>
             </div>
             <div className='about-me-img'>
-              <img src={process.env.PUBLIC_URL + '/images/me.png'} alt='profile' />
+              <img src={process.env.PUBLIC_URL + '/images/me2.png'} alt='profile' />
               <a href="javascript:alert('showing pdf!')" className='about-me-pdf'>
                 View my CV
               </a>

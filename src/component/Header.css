@@ -40,4 +40,8 @@
   left: 2px;
 }
 
-/*############################## END OF HEADER STYLE */
+@media (max-width: 400px) {
+  h1 > a {
+    font-size: 0.8em;
+  }
+}

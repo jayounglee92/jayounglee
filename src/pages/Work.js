@@ -26,7 +26,7 @@ const Work = () => {
               <WorkItem key={id} id={id} title={title} images={images} onClick={openModal} />
             ))}
           </ul>
-          <span>이해를 돕기 위한 이미지로 이미지에 있는 데이터는 실제와 상이합니다.</span>
+          <span>이해를 돕기 위한 이미지로 실제와 상이합니다.</span>
         </div>
       </main>
     </>
