@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": 3,
+      "name": "Nway",
+      "type": "game",
+      "startDate": "January 2021",
+      "endDate": "now",
+      "position": "Frontend Web Developer"
+    },
+    {
+      "id": 2,
+      "name": "Nextculture",
+      "type": "web agency",
+      "startDate": "October 2020",
+      "endDate": "October 2021",
+      "position": "Frontend Web Developer"
+    },
+    {
+      "id": 1,
+      "name": "Mobidays",
+      "type": "advertising agency",
+      "startDate": "April 2018",
+      "endDate": "October 2020",
+      "position": "Frontend Web Developer"
+    }
+  ]
+}

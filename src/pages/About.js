@@ -24,8 +24,8 @@ const About = () => {
               </p>
             </div>
             <div className='about-me-img'>
-              <img src={process.env.PUBLIC_URL + '/images/me2.png'} alt='profile' />
-              <a href="javascript:alert('showing pdf!')" className='about-me-pdf'>
+              <img src={process.env.PUBLIC_URL + '/images/me3.png'} alt='profile' />
+              <a href="javascript:alert('not ready yet!🖐')" className='about-me-pdf'>
                 View my CV
               </a>
             </div>

@@ -1,11 +1,11 @@
 .about {
-  margin-top: 5vh;
-  margin-bottom: 19vh;
+  display: flex;
+  align-items: center;
 }
 
 .about-con {
-  padding-right: 17vw;
-  padding-left: 17vw;
+  max-width: 1024px;
+  box-sizing: border-box;
 }
 .about-con section {
   display: flex;
@@ -67,7 +67,46 @@
 
 .skill-wrap {
   display: flex;
-  height: 65px;
   margin-top: 20px;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .about-me {
+    flex-direction: column;
+  }
+  .about-me-text {
+    width: 100%;
+  }
+  .about-me-intro {
+    font-size: 1.5rem;
+  }
+  .about-me-desc {
+    font-size: 1.2rem;
+  }
+  .about-me-img {
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .about-me-img > img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-con {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .about-me-pdf {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
 }

@@ -1,9 +1,10 @@
 .main {
   align-items: center;
-  margin-top: 25vh;
-  margin-bottom: 25vh;
-  padding-right: 5vw;
-  padding-left: 5vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
 }
 
 .main-text {
@@ -12,10 +13,8 @@
   margin: 0;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   .main {
-    font-size: 0.7em;
-    margin-top: 5vh;
-    margin-bottom: 15vh;
+    font-size: 0.8em;
   }
 }

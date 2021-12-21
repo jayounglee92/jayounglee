@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   font-family: 'Lato', monospace, Helvetica, Arial, sans-serif;
   font-size: 1em;
   height: 100%;
@@ -29,11 +29,16 @@ video {
   width: 100%;
 }
 
-
 main {
   display: flex;
   flex-direction: column;
   animation: main-ani 1.2s ease-in forwards;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
 }
 
 @keyframes main-ani {

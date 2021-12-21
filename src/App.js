@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 function App() {
   return (
-    <>
+    <div className='wrap'>
       <BrowserRouter>
         <Header />
         <Switch>
@@ -17,7 +17,7 @@ function App() {
         </Switch>
       </BrowserRouter>
       <Footer />
-    </>
+    </div>
   );
 }
 
